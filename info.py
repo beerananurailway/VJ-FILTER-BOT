@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/join_movies_adda_group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/join_movies_adda')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/join_movies_adda')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'join_movies_adda) # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'join_movies_adda_support') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
